@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Contacto</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Contacto</h1>
+  <!-- Esto es un ejemplo de un comentario corto. -->
+  <p>Esta es la página de contactos.</p>
+  <!-- 
+    Esto es un ejemplo de un comentario largo que ocupa
+    más de una línea y que puede seguir creciendo.
+  -->
+  <img src="background.png" alt="Fondo imagen">
+  <div>
+    <p> Rellena el siguiente formulario explicando de forma detallada el motivo de tu consulta.<br>Los campos requeridos
+      están marcados con *.
+  </div>
+  <div>
+    <form name="support" method="post" action="/soporte/" id="support-form">
+      <input type="text" id="support_name" name="support[name]" required="required" class="form-control"
+        placeholder="Nombre*">
+      <input type="email" id="support_email" name="support[email]" required="required" class="form-control"
+        placeholder="Email*">
+      <select id="supportTicket_deparment" name="supportTicket[deparment]" required="required" class="form-control">
+        <option value="" selected="selected">Motivo de tu consulta</option>
+        <option value="25">Modificación/Cancelación/Consulta de Estado de Pedidos</option>
+        <option value="1">Ventas/Otra información</option>
+        <option value="9">Incidencias transporte</option>
+        <option value="2">Garantías</option>
+        <option value="3">Devoluciones</option>
+        <option value="13">Asesoramiento técnico/Compatibilidad equipos a medida</option>
+      </select>
+      <input type="text" id="support_order" name="support[order]" class="form-control" placeholder="Nº de pedido">
+      <input type="text" id="support_title" name="support[title]" required="required" class="form-control"
+        placeholder="Asunto*">
+      <textarea id="support_message" name="support[message]" required="required" class="form-control"
+        placeholder="Mensaje*" rows="4"></textarea>
+    </form>
+  </div>
+  <small><b>Por motivos de seguridad</b> tenemos grabada su dirección IP y grabada la hora de envío en nuestros
+    logs.</small>
+</body>
+
+</html>
