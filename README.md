@@ -1,4 +1,5 @@
-# HTML Style Guide 
+# LMSGI UNIDAD 2, ACTIVIDAD 2
+# HTML STYLE GUIDE
 Realiza las siguientes actividades y sube los cambios a tu repositorio.
 
 ## **1. Lee la guía de estilos para HTML propuesta por Google**
@@ -17,7 +18,9 @@ Aquí te dejo algunos puntos a destacar:
 * Usa una línea nueva para cada bloque y utiliza la indentación.
 * Es preferible usar comillas dobles a las simples cuando hay que incluir valores en las propiedades en HTML, pero usa comillas simples cuando uses CSS.
 
-## **2. Detecta y corrige los errores de estilo en el código HTML del fichero index.html**
+## Descarga la carpeta zip del proyecto y renómbrala con TUSINICIALES_U2_A2A (me equivoqué en la tarea anterior y os puse A2 en vez de A1)
+
+## **2. Detecta y corrige los errores de estilo en el código HTML del fichero index.html y guárdalo**
 
 **A.  Declara siempre el tipo de documento**
 * Usa siempre la declaración del tipo de documento en la primer línea. 
@@ -47,7 +50,7 @@ Aquí te dejo algunos puntos a destacar:
 **I. Limita la indentación y líneas**
 * No añadas líneas en blanco, espacios o indentación sin razón.
 
-## **3. Detecta y corrige los errores de estilo en el código HTML del fichero contact.html**
+## **3. Detecta y corrige los errores de estilo en el código HTML del fichero contact.html y guárdalo**
 
 **A. La etiqueta <title\> es requerida en HTML.**
 * Indica el título de la página en el navegador.
@@ -91,19 +94,20 @@ Aquí te dejo algunos puntos a destacar:
 -->
 ```
 
-**H. No incluyas el atributo type para incluir hojas de estilo o Javascript.**
-* Solo si se va a usar otro tipo de código si es necesario, por defecto HTML5 ya toma los valores de CSS y Javascript por defecto.
 
-**I. Usa minúsculas para los nombres de ficheros.**
+**H. Usa minúsculas para los nombres de ficheros.**
 * Algunos servidores son sensibles al uso de mayúsculas, por ello evita posibles problemas y manten todos los nombres de ficheros en minúsculas.
 
-**J. Extensiones de ficheros.**
-* Tus ficheros HTML deberán tener las extensiones .html o .html, ambas son permitidas.
+**I. Extensiones de ficheros.**
+* Tus ficheros HTML deberán tener las extensiones .htm o .html, ambas son permitidas.
 
 ## **4. Valida el código de ambas páginas.**
 * Haz uso del validador de la W3C https://validator.w3.org/.
 * ¿Hay algún error o "warning" detectado en alguna de las páginas que ya has corregido?
 * Corrígelos y vuelve a validarlo.
+
+
+## **5. Comprime la carpeta en un zip y súbelo a la tarea de classroom
 
 ## **Referencias:**
 
